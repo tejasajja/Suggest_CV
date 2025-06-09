@@ -53,7 +53,7 @@ def stab(jd):
             except Exception as e:
                 st.error(f"An error occured: {e}")
 
-
+# Change C
 
 if __name__ == "__main__":
     st.set_page_config(page_title="Resume Suggestions", page_icon="🚀")
