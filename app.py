@@ -1,3 +1,4 @@
+# Commit changes
 import streamlit as st
 from app_sidebar import sidebar
 from llm_functions import instantiate_LLM_main, get_api_keys_from_local_env
@@ -26,7 +27,7 @@ def ftab():
                     documents=st.session_state.documents,
                 )
                 display_resume_analysis(st.session_state.SCANNED_RESUME)
-            except Exception as e:
+            except Exception as e:                          
                 st.error(f"An error occured: {e}")
 
 
