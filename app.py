@@ -29,8 +29,8 @@ def ftab():
                 display_resume_analysis(st.session_state.SCANNED_RESUME)
             except Exception as e:                          
                 st.error(f"An error occured: {e}")
-
-
+# change A
+# Change B
 def stab(jd):
     """Analyze the uploaded resume."""
 
